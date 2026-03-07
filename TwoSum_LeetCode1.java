@@ -1,4 +1,4 @@
-class LeetCode_1
+class TwoSum_leetCode1
 {
     public static void main(String[] args)
     {
