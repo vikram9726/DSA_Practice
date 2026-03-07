@@ -3,6 +3,7 @@ public class PalindromeNumber_LeetCode9
     public static void main(String[] args) 
     {
        int number=1221;
+
        int original = number;
        int reverse=0;
         
@@ -23,11 +24,7 @@ public class PalindromeNumber_LeetCode9
         System.out.println("No! It is not palindrone :: "+reverse );
        }
        
-
-
-
-
-        
+ 
 
     }
 
