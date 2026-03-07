@@ -7,12 +7,12 @@ public class ReverseString_LeetCode344 {
        int right = s.length -1;
 
         System.out.println("Original String ::");
-       for (char c : s) {
+       for (char c : s) {     // Print Array String using For-each array
         System.out.print(c);
 
        }
 
-        while(left<right)
+        while(left<right)     //IMP ::Alternating Position
         {
             char temp = s[left];
             s[left]=s[right];
