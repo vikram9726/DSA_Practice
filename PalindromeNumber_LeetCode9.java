@@ -8,7 +8,7 @@ public class PalindromeNumber_LeetCode9
        int reverse=0;
         
 
-       while(number>0)  {
+       while(number>0)  {             //IMP :: Palidrome number 
         int digit = number%10;
         reverse=reverse*10+digit;
         number= number/10;

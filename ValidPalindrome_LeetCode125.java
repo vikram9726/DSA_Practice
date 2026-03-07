@@ -3,19 +3,19 @@ public class ValidPalindrome_LeetCode125 {
         String s = "Banana ananab";
         s=s.replaceAll("[^a-zA-Z]", "").toLowerCase();  //Important remove spaces and lower case.
 
-        int left=0;
+        int left=0;   //Two pointer
         int right = s.length()-1;
 
         boolean Ispalindrome =true;
 
         while(left<right)
             {
-                if(s.charAt(left)!=s.charAt(right))
+                if(s.charAt(left)!=s.charAt(right))    //Checking both sides
                 {
                     Ispalindrome=false;
                     break;
                 }
-                left++;
+                left++;     //increment
                 right--;
             }
 
