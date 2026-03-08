@@ -7,7 +7,7 @@
 
         for(int i=0;i<arr.length-1;i++)
         {
-            for(int j=i+1;j<arr.length-1;j++)
+            for(int j=i+1;j<arr.length;j++)
             {
                 if(arr[i]==arr[j])
                 {
@@ -23,13 +23,8 @@
             System.out.println("Duplicate Contains ::"+Duplicate);
         }
         else{
-            System.out.println("Doesnt Contain Duplicate");
-        }
-
-
-
-
-
+            System.out.println("Doesnt Contain Duplicate"); 
+               }
     }
     
 }
