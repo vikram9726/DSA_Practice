@@ -9,7 +9,7 @@
         {
             for(int j=i+1;j<arr.length;j++)
             {
-                if(arr[i]==arr[j])
+                if(arr[i]==arr[j])    //Comparing all element 
                 {
                     Duplicate=arr[i];
                     IsDuplicate=true;

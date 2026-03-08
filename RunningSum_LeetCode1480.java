@@ -6,10 +6,20 @@ public class RunningSum_LeetCode1480 {
 
         for(int i=0;i<arr1.length;i++)
         {
-            
-            sum=arr1[i]+sum;
+            sum=arr1[i]+sum;    // :: Adding element and puting it in another array
             out[i]=sum; 
         }
+/*
+for(int i = 1; i < arr1.length; i++)      ::Efficient Way
+        {
+            arr1[i] = arr1[i] + arr1[i-1];
+        }
+
+        for(int num : arr1)
+        {
+            System.out.print(num + " ");
+        }
+ */
 
         System.out.print("Output ::");
         for(int i=0;i<arr1.length;i++)
