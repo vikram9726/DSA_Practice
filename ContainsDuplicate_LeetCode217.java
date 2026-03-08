@@ -17,10 +17,9 @@
                 }
             }
         }
-
         if(IsDuplicate==true)
         {
-            System.out.println("Duplicate Contains ::"+Duplicate);
+            System.out.println("Duplicate Contains ::" + Duplicate);
         }
         else{
             System.out.println("Doesnt Contain Duplicate"); 
