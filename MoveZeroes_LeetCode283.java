@@ -9,10 +9,10 @@ public class MoveZeroes_LeetCode283 {
         {
             if(nums[i] != 0)
             {
-                int temp = nums[i];
+                int temp = nums[i];   //IMP:: Move zero to last using (swap nums[i] !=0 t0 nums[j])
                 nums[i] = nums[j];
                 nums[j] = temp;
-                j++;
+                j++;                   //After swap j++ so remaining vacant index shows zero
             }
         }
 
