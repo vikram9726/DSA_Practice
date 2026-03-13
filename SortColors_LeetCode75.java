@@ -25,6 +25,8 @@ public class SortColors_LeetCode75 {
          * 
          */
 
+        /* 
+
         int[] nums = { 2, 0, 2, 1, 1, 0 };
 
         int low = 0;
@@ -52,11 +54,11 @@ public class SortColors_LeetCode75 {
 
         for (int num : nums) {
             System.out.print(num + " ");
-        }
+        }*/
     }
 }
 
-/*
+
  * Basic initial approach
  * 
  * public class SortColors_LeetCode75 {
@@ -74,4 +76,4 @@ public class SortColors_LeetCode75 {
  * }
  * 
  * }
- */
+ 
